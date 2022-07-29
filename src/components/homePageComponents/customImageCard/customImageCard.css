@@ -1,14 +1,23 @@
 .grid-img-cnt {
   position: relative;
+
 }
 
+.grid-specific-img{
+  overflow: hidden;
+  aspect-ratio: 1/1;
+}
+
+.grid-img-content.right {
+  right: 0;
+  left: unset;
+}
 .grid-img-cnt .grid-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   transition: all;
   transition-duration: 500ms;
-  transition-timing-function: ease-in;
 }
 
 .grid-img-content {
@@ -18,6 +27,15 @@
   display: none;
   z-index: 2;
   padding: 10px 15px;
+}
+.grid-card-cnt:hover .grid-img-cnt:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(255,255,255,.5);
 }
 .grid-img-cnt:hover .grid-img-content {
   display: block;

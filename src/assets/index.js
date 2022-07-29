@@ -15,7 +15,11 @@ import multidictionary from './icons/multidic.svg';
 import stramlined from './icons/stramlined.svg';
 import indexed from './icons/indexed.svg';
 import affortable from './icons/affordable.svg';
-
+import footerLogo from './footerLogo.svg';
+import telegram from './telegram.svg';
+import twitter from './telegram.svg';
+import todar from './img/todar.jpg';
+import mark from './img/Mark.jpeg';
 
 
 //
@@ -41,7 +45,12 @@ export {
   efficentIcon,
   rewardingIcon,
   trustworthIcon,
+  twitter,
+  telegram,
+  todar,
+  mark,
   headerVideo,
+  footerLogo,
   // home page About Noble Access
   openAcces,
   elfieSolomon,

@@ -13,7 +13,6 @@ const AboutGridItems = ({ icon, heading, para }) => {
             sm: "row",
           },
           justifyContent: "space-between",
-          //   border: "2px solid gray",
           margin: {
             xs: "0 auto",
           },
@@ -49,6 +48,7 @@ const AboutGridItems = ({ icon, heading, para }) => {
               lineHeight: "24px",
               fontSize: "16px",
               fontWeight: 500,
+
             }}
           >
             {para}

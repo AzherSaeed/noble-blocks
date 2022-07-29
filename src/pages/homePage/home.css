@@ -1,11 +1,11 @@
 .grid-card-cnt {
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
+  grid-template-columns: repeat(10,minmax(0,1fr));
+  height: fit-content;
+
 }
-/* .grid-img-cnt {
-  height: auto;
-  width: 100%;
-} */
+
+
 @media screen and (max-width: 765px) {
   .grid-card-cnt {
     grid-template-columns: repeat(7, 1fr);

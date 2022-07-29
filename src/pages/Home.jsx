@@ -1,19 +1,20 @@
 import { Box, Typography, Grid , Container} from "@mui/material";
 import React from "react";
-
+import "./homePage/home.css";
+import {TeamContainer} from "./style";
 import {
-  efficentIcon,
-  rewardingIcon,
-  trustworthIcon,
-  openAcces,
+    efficentIcon,
+    rewardingIcon,
+    trustworthIcon,
+    openAcces,
     multidictionary,
     stramlined,
     timestamped,
     indexed,
-    affortable
+    affortable, delroy, bentey, mark , todar
 } from "../assets";
 
-import { FeatureCard, AboutGridItems } from "../components";
+import {FeatureCard, AboutGridItems, CustomImageCard} from "../components";
 
 const Home = () => {
   return (
@@ -48,12 +49,12 @@ const Home = () => {
           <FeatureCard
             icon={efficentIcon}
             heading="Efficent"
-            para="Reward work and promote loyalty with universities and funding bodies"
+            para="Hosting, formatting, editing and reviewing content management system"
           />
           <FeatureCard
             icon={trustworthIcon}
             heading="Trustworthy"
-            para="Reward work and promote loyalty with universities and funding bodies"
+            para="Transparent and respectable publication costs and authors keep copyrights to their work"
           />
         </Box>
         <Box sx={{ marginTop: "65px", marginBottom: "58px" }}>
@@ -129,11 +130,12 @@ const Home = () => {
             <Box
               sx={{
                 maxWidth: "1010px",
-                margin: "0 auto",
+                margin: "10px",
                 background: "#FFFFFF",
                 boxShadow: " 0px 0px 30px rgba(0, 0, 0, 0.12)",
                 borderRadius: "20px",
                 padding: "50px 12px",
+
               }}
             >
               <Box
@@ -180,6 +182,211 @@ const Home = () => {
           </Box>
         </Box>
       </Box>
+        <Box >
+            <div>
+                <Typography
+                    sx={{
+                        fontSize: "38px",
+                        fontWeight: 500,
+                        color: "#000000",
+                        textAlign: "center",
+                        paddingBottom: "53px",
+                    }}
+                >
+                    Our Team
+                </Typography>
+                <TeamContainer>
+                   <div className='team-text' >
+                       Team Members
+                   </div>
+                    <div className="grid-card-cnt">
+                        <CustomImageCard
+                            img={delroy}
+                            name="Delroy Frazer"
+                            position="Founder"
+                            description="As a founder and entrepreneur, Delroy values innovation above all else. An enthusiastic early adopter of Web 3.0 and blockchain technology, Delroy loves the freedom and creativity new technologies are bringing to the world. His experience, vision, and enthusiasm drive the project forward. "
+
+                        />
+                        <CustomImageCard
+                            img={mark}
+                            name="Mark McDonald"
+                            position="Co-Founder"
+                            description="With more than 20 year’s experience managing the purse strings of successful businesses, Mark is a master of the profit-making arts. Currently the Senior Finance Director at J.Wray and Nephew Limited, Mark, he brings a wide range of management and financial expertise to the team."
+                        />
+                        <CustomImageCard
+                            img={bentey}
+                            name="Bente Andersen"
+                            position="Co-Founder"
+                            description="Bente helps corporations, SMEs and startups to grow, improve, and innovate. For the past 15 years, she’s delivered her clients creative and robust strategies and solutions based on deep research and analysis. She has worked within an array of different industries, markets, and cultural environments, always making a positive impact."
+                        />
+                        <CustomImageCard
+                            img={todar}
+                            name="Todd Vachev"
+                            position="Fullstock Developer"
+                            description="Todd is a best selling online instructor, with 230k+ students on Udemy and other platforms. He specializes in computer programming, MATLAB, and running online businesses. His knowledge of BlockChain adds volume to the team."
+                        />
+                        <CustomImageCard
+                            img={delroy}
+                            name="Delroy Frazer"
+                            position="Founder"
+                            description="As a founder and entrepreneur, Delroy values innovation above all else. An enthusiastic early adopter of Web 3.0 and blockchain technology, Delroy loves the freedom and creativity new technologies are bringing to the world. His experience, vision, and enthusiasm drive the project forward. "
+
+                        />
+                        <CustomImageCard
+                            img={mark}
+                            name="Mark McDonald"
+                            position="Co-Founder"
+                            description="With more than 20 year’s experience managing the purse strings of successful businesses, Mark is a master of the profit-making arts. Currently the Senior Finance Director at J.Wray and Nephew Limited, Mark, he brings a wide range of management and financial expertise to the team."
+                        />
+                        <CustomImageCard
+                            img={bentey}
+                            name="Bente Andersen"
+                            position="Co-Founder"
+                            description="Bente helps corporations, SMEs and startups to grow, improve, and innovate. For the past 15 years, she’s delivered her clients creative and robust strategies and solutions based on deep research and analysis. She has worked within an array of different industries, markets, and cultural environments, always making a positive impact."
+                        />
+                        <CustomImageCard
+                            img={todar}
+                            name="Todd Vachev"
+                            position="Fullstock Developer"
+                            addClass='right'
+                            description="Todd is a best selling online instructor, with 230k+ students on Udemy and other platforms. He specializes in computer programming, MATLAB, and running online businesses. His knowledge of BlockChain adds volume to the team."
+                        />
+                        <CustomImageCard
+                            img={delroy}
+                            name="Delroy Frazer"
+                            position="Founder"
+                            addClass='right'
+                            description="As a founder and entrepreneur, Delroy values innovation above all else. An enthusiastic early adopter of Web 3.0 and blockchain technology, Delroy loves the freedom and creativity new technologies are bringing to the world. His experience, vision, and enthusiasm drive the project forward. "
+
+                        />
+                        <CustomImageCard
+                            img={mark}
+                            name="Mark McDonald"
+                            position="Co-Founder"
+                            addClass='right'
+                            description="With more than 20 year’s experience managing the purse strings of successful businesses, Mark is a master of the profit-making arts. Currently the Senior Finance Director at J.Wray and Nephew Limited, Mark, he brings a wide range of management and financial expertise to the team."
+                        />
+                        <CustomImageCard
+                            img={bentey}
+                            name="Bente Andersen"
+                            position="Co-Founder"
+                            description="Bente helps corporations, SMEs and startups to grow, improve, and innovate. For the past 15 years, she’s delivered her clients creative and robust strategies and solutions based on deep research and analysis. She has worked within an array of different industries, markets, and cultural environments, always making a positive impact."
+                        />
+                        <CustomImageCard
+                            img={todar}
+                            name="Todd Vachev"
+                            position="Fullstock Developer"
+                            description="Todd is a best selling online instructor, with 230k+ students on Udemy and other platforms. He specializes in computer programming, MATLAB, and running online businesses. His knowledge of BlockChain adds volume to the team."
+                        />
+                        <CustomImageCard
+                            img={delroy}
+                            name="Delroy Frazer"
+                            position="Founder"
+                            description="As a founder and entrepreneur, Delroy values innovation above all else. An enthusiastic early adopter of Web 3.0 and blockchain technology, Delroy loves the freedom and creativity new technologies are bringing to the world. His experience, vision, and enthusiasm drive the project forward. "
+
+                        />
+                        <CustomImageCard
+                            img={mark}
+                            name="Mark McDonald"
+                            position="Co-Founder"
+                            description="With more than 20 year’s experience managing the purse strings of successful businesses, Mark is a master of the profit-making arts. Currently the Senior Finance Director at J.Wray and Nephew Limited, Mark, he brings a wide range of management and financial expertise to the team."
+                        />
+                        <CustomImageCard
+                            img={bentey}
+                            name="Bente Andersen"
+                            position="Co-Founder"
+                            description="Bente helps corporations, SMEs and startups to grow, improve, and innovate. For the past 15 years, she’s delivered her clients creative and robust strategies and solutions based on deep research and analysis. She has worked within an array of different industries, markets, and cultural environments, always making a positive impact."
+                        />
+                        <CustomImageCard
+                            img={todar}
+                            name="Todd Vachev"
+                            position="Fullstock Developer"
+                            description="Todd is a best selling online instructor, with 230k+ students on Udemy and other platforms. He specializes in computer programming, MATLAB, and running online businesses. His knowledge of BlockChain adds volume to the team."
+                        />
+                        <CustomImageCard
+                            img={delroy}
+                            name="Delroy Frazer"
+                            position="Founder"
+                            description="As a founder and entrepreneur, Delroy values innovation above all else. An enthusiastic early adopter of Web 3.0 and blockchain technology, Delroy loves the freedom and creativity new technologies are bringing to the world. His experience, vision, and enthusiasm drive the project forward. "
+
+                        />
+                        <CustomImageCard
+                            img={mark}
+                            name="Mark McDonald"
+                            position="Co-Founder"
+                            addClass='right'
+                            description="With more than 20 year’s experience managing the purse strings of successful businesses, Mark is a master of the profit-making arts. Currently the Senior Finance Director at J.Wray and Nephew Limited, Mark, he brings a wide range of management and financial expertise to the team."
+                        />
+                        <CustomImageCard
+                            img={bentey}
+                            name="Bente Andersen"
+                            position="Co-Founder"
+                            addClass='right'
+                            description="Bente helps corporations, SMEs and startups to grow, improve, and innovate. For the past 15 years, she’s delivered her clients creative and robust strategies and solutions based on deep research and analysis. She has worked within an array of different industries, markets, and cultural environments, always making a positive impact."
+                        />
+                        <CustomImageCard
+                            img={todar}
+                            name="Todd Vachev"
+                            position="Fullstock Developer"
+                            addClass='right'
+                            description="Todd is a best selling online instructor, with 230k+ students on Udemy and other platforms. He specializes in computer programming, MATLAB, and running online businesses. His knowledge of BlockChain adds volume to the team."
+                        />
+                        <CustomImageCard
+                            img={delroy}
+                            name="Delroy Frazer"
+                            position="Founder"
+                            description="As a founder and entrepreneur, Delroy values innovation above all else. An enthusiastic early adopter of Web 3.0 and blockchain technology, Delroy loves the freedom and creativity new technologies are bringing to the world. His experience, vision, and enthusiasm drive the project forward. "
+
+                        />
+                        <CustomImageCard
+                            img={mark}
+                            name="Mark McDonald"
+                            position="Co-Founder"
+                            description="With more than 20 year’s experience managing the purse strings of successful businesses, Mark is a master of the profit-making arts. Currently the Senior Finance Director at J.Wray and Nephew Limited, Mark, he brings a wide range of management and financial expertise to the team."
+                        />
+                        <CustomImageCard
+                            img={bentey}
+                            name="Bente Andersen"
+                            position="Co-Founder"
+                            description="Bente helps corporations, SMEs and startups to grow, improve, and innovate. For the past 15 years, she’s delivered her clients creative and robust strategies and solutions based on deep research and analysis. She has worked within an array of different industries, markets, and cultural environments, always making a positive impact."
+                        />
+                        <CustomImageCard
+                            img={todar}
+                            name="Todd Vachev"
+                            position="Fullstock Developer"
+                            description="Todd is a best selling online instructor, with 230k+ students on Udemy and other platforms. He specializes in computer programming, MATLAB, and running online businesses. His knowledge of BlockChain adds volume to the team."
+                        />
+                        <CustomImageCard
+                            img={delroy}
+                            name="Delroy Frazer"
+                            position="Founder"
+                            description="As a founder and entrepreneur, Delroy values innovation above all else. An enthusiastic early adopter of Web 3.0 and blockchain technology, Delroy loves the freedom and creativity new technologies are bringing to the world. His experience, vision, and enthusiasm drive the project forward. "
+
+                        />
+                        <CustomImageCard
+                            img={mark}
+                            name="Mark McDonald"
+                            position="Co-Founder"
+                            description="With more than 20 year’s experience managing the purse strings of successful businesses, Mark is a master of the profit-making arts. Currently the Senior Finance Director at J.Wray and Nephew Limited, Mark, he brings a wide range of management and financial expertise to the team."
+                        />
+                        <CustomImageCard
+                            img={bentey}
+                            name="Bente Andersen"
+                            position="Co-Founder"
+                            description="Bente helps corporations, SMEs and startups to grow, improve, and innovate. For the past 15 years, she’s delivered her clients creative and robust strategies and solutions based on deep research and analysis. She has worked within an array of different industries, markets, and cultural environments, always making a positive impact."
+                        />
+                        <CustomImageCard
+                            img={todar}
+                            name="Todd Vachev"
+                            position="Fullstock Developer"
+                            addClass='right'
+                            description="Todd is a best selling online instructor, with 230k+ students on Udemy and other platforms. He specializes in computer programming, MATLAB, and running online businesses. His knowledge of BlockChain adds volume to the team."
+                        />
+
+                    </div>
+                </TeamContainer>
+            </div>
+        </Box>
     </Box>
   );
 };

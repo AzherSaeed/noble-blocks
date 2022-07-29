@@ -7,6 +7,7 @@ import Navbar from './layout/Navbar'
 
 
 import { Home , Header } from "./pages";
+import Footer from "./layout/Footer/Footer";
 
 const App = () => {
   return (
@@ -22,7 +23,7 @@ const App = () => {
             } />
           </Routes>
         </Main>
-        {/* Footer */}
+         <Footer/>
     </ThemeProvider>
   );
 };

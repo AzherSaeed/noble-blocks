@@ -3,13 +3,13 @@ import "./customImageCard.css";
 
 import { Grid, Typography, Box } from "@mui/material";
 
-const CustomImageCard = ({ img, name, position, description }) => {
+const CustomImageCard = ({ img, name, position, description , addClass = ''}) => {
   return (
     <div className="grid-img-cnt">
-      <div style={{ overflow: "hidden", height: "100%" }}>
+      <div className='grid-specific-img' >
         <img className="grid-img" src={img} />
       </div>
-      <div className="grid-img-content">
+      <div className={`grid-img-content ${addClass}`}>
         <Typography>{name}</Typography>
         <Typography>{position}</Typography>
         <Typography>{description}</Typography>

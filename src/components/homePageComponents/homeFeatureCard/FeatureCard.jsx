@@ -27,6 +27,7 @@ const FeatureCard = ({ icon, heading, para }) => {
           flexDirection: "column",
           alignItems: "center",
           justifyContent: "center",
+            textAlign : 'center'
         }}
       >
         <Box>

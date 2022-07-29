@@ -126,4 +126,43 @@ export const HeaderContainer = styled.div`
       }
     }
   }
+    
+`
+
+export const TeamContainer = styled.div`
+  
+    margin-left: calc((100vw - 1440px)/2);
+    display: grid;
+      grid-template-columns: 120px 1fr;
+      gap: 100px;
+  @media screen and (max-width: 1440px){
+      margin-left: unset;
+    gap: 0px;
+    
+  }
+    
+  
+  
+  .team-text{
+    font-size: 64px;
+    line-height: 120%;
+    font-weight: 500;
+    writing-mode: vertical-lr;
+    transform: scale(-1);
+    white-space: nowrap;
+    display: inline-block;
+    top: 1.5rem;
+    position: sticky;
+    height: fit-content;
+    
+    @media screen and (max-width : 1440px){
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 32px;
+      
+    }
+    }
+  }
+
 `
