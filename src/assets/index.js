@@ -22,6 +22,15 @@ import affortable from './icons/affordable.svg';
 // homepage About Noble icons
 import openAcces from "./icons/openAccess.svg";
 
+// home page images
+
+import elfieSolomon from "./img/elfieSolomon.png";
+import elfie2 from "./img/elfie2.png";
+import adamSkull from "./img/adamSkull.png";
+import holyMichael from "./img/holyMichael.png";
+import michaelGray from "./img/michaelGray.png";
+import delroy from "./img/delroy.jpeg";
+import bentey from "./img/bentey.jpeg";
 export {
   timestamped,
   multidictionary,
@@ -35,6 +44,13 @@ export {
   headerVideo,
   // home page About Noble Access
   openAcces,
+  elfieSolomon,
+  holyMichael,
+  elfie2,
+  michaelGray,
+  adamSkull,
+  delroy,
+  bentey,
     logo,
     times,
     bars,
@@ -42,4 +58,5 @@ export {
     avatar1,
     avatar2,
     avatar3
+
 };
