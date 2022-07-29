@@ -3,21 +3,26 @@ import theme from "./theme/theme";
 import { ThemeProvider } from "@mui/material/styles";
 import { Routes, Route } from "react-router-dom";
 import { Main } from "./layout";
+import Navbar from './layout/Navbar'
 
-import { Home } from "./pages";
+
+import { Home , Header } from "./pages";
 
 const App = () => {
   return (
     <ThemeProvider theme={theme}>
-      <div className="app">
-        {/* Header */}
+         <Navbar/>
         <Main>
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={
+               <div>
+                   <Header />
+                   <Home/>
+               </div>
+            } />
           </Routes>
         </Main>
         {/* Footer */}
-      </div>
     </ThemeProvider>
   );
 };

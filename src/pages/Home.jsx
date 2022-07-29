@@ -1,4 +1,4 @@
-import { Box, Typography, Grid } from "@mui/material";
+import { Box, Typography, Grid , Container} from "@mui/material";
 import React from "react";
 
 import {
@@ -6,16 +6,21 @@ import {
   rewardingIcon,
   trustworthIcon,
   openAcces,
+    multidictionary,
+    stramlined,
+    timestamped,
+    indexed,
+    affortable
 } from "../assets";
 
 import { FeatureCard, AboutGridItems } from "../components";
 
 const Home = () => {
   return (
-    <div style={{ border: "2px solid gray", padding: "25px 0px" }}>
-      <Box sx={{ maxWidth: "1082px", margin: "0 auto", padding: "5px 12px " }}>
-        <Box sx={{ paddingBottom: "56px" }}>
-          <Typography sx={{ fontSize: { xs: "25px", md: "32px" } }}>
+    <Box mt={10} >
+      <Container sx={{ maxWidth:'1100px'  }} maxWidth={false} disableGutters>
+        <Box mb={5}>
+          <Typography sx={{ fontSize: { xs: "25px", md: "32px" } , fontWeight : '500'   ,  textAlign : 'center' }}>
             A web3-platform, backed by{" "}
             <Box sx={{ fontWeight: "800" }} component="span">
               cryptocurrency,{" "}
@@ -52,7 +57,7 @@ const Home = () => {
           />
         </Box>
         <Box sx={{ marginTop: "65px", marginBottom: "58px" }}>
-          <Box>
+          <Box p={1} >
             <Typography
               sx={{
                 paddingBottom: "17px",
@@ -81,7 +86,7 @@ const Home = () => {
             </Typography>
           </Box>
         </Box>
-      </Box>
+      </Container>
       <Box
         sx={{
           bgcolor: "skyBlueBg",
@@ -145,29 +150,29 @@ const Home = () => {
                     para="Break through geographical barriers and expand your reach. Give your research global access while retaining all copyrights"
                   />
                   <AboutGridItems
-                    icon={openAcces}
-                    heading="Open Access"
-                    para="Break through geographical barriers and expand your reach. Give your research global access while retaining all copyrights"
+                    icon={stramlined}
+                    heading="Streamlined Process"
+                    para="Have irrefutable time-stamped documentation and evidence of your research findings and discoveries."
                   />
                   <AboutGridItems
-                    icon={openAcces}
-                    heading="Open Access"
-                    para="Break through geographical barriers and expand your reach. Give your research global access while retaining all copyrights"
+                    icon={timestamped}
+                    heading="Time Stamped"
+                    para="Publish research on any topic you want. Contribute to established topics or create your own niche."
                   />
                   <AboutGridItems
-                    icon={openAcces}
-                    heading="Open Access"
-                    para="Break through geographical barriers and expand your reach. Give your research global access while retaining all copyrights"
+                    icon={indexed}
+                    heading="Fully Indexed"
+                    para="Fast track the publication of your work. Our seamless workflow expedites the entire publishing process."
                   />
                   <AboutGridItems
-                    icon={openAcces}
-                    heading="Open Access"
-                    para="Break through geographical barriers and expand your reach. Give your research global access while retaining all copyrights"
+                    icon={multidictionary}
+                    heading="Multidisciplinary"
+                    para="Get your research fully searchable on Pubmed Central, Scopus, SciSearch, and other recognised databases."
                   />
                   <AboutGridItems
-                    icon={openAcces}
-                    heading="Open Access"
-                    para="Break through geographical barriers and expand your reach. Give your research global access while retaining all copyrights"
+                    icon={affortable}
+                    heading="Affordable"
+                    para="Overcome economic barriers. Low publication charges enable you to bring your work to the public."
                   />
                 </Grid>
               </Box>
@@ -175,7 +180,7 @@ const Home = () => {
           </Box>
         </Box>
       </Box>
-    </div>
+    </Box>
   );
 };
 

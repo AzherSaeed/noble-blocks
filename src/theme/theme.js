@@ -18,6 +18,13 @@ const theme = createTheme({
     h3: { fontSize: "32px" },
     h4: { fontSize: "20px" },
   },
+  overrides: {
+    MuiContainer: {
+      root: {
+        maxWidth: `1110px`,
+      },
+    },
+  },
 });
 
 export default theme;
