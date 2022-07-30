@@ -16,6 +16,7 @@ const FeatureCard = ({ icon, heading, para }) => {
         background: "#FFFFFF",
         boxShadow: " 0px 0px 25px rgba(0, 0, 0, 0.05",
         borderRadius: "40px",
+
       }}
     >
       <Box
@@ -29,6 +30,8 @@ const FeatureCard = ({ icon, heading, para }) => {
           justifyContent: "center",
             textAlign : 'center'
         }}
+        p={2}
+
       >
         <Box>
           <img src={icon} alt="" />

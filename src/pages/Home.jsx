@@ -20,7 +20,7 @@ const Home = () => {
   return (
     <Box mt={10} >
       <Container sx={{ maxWidth:'1100px'  }} maxWidth={false} disableGutters>
-        <Box mb={5}>
+        <Box mb={5} sx={{overflow : 'hidden'}} >
           <Typography sx={{ fontSize: { xs: "25px", md: "32px" } , fontWeight : '500'   ,  textAlign : 'center' }}>
             A web3-platform, backed by{" "}
             <Box sx={{ fontWeight: "800" }} component="span">
@@ -37,8 +37,10 @@ const Home = () => {
               xs: "column",
               md: "row",
             },
+              overflow : 'hidden',
             justifyContent: "space-between",
             alignItems: "center",
+              margin : '10px'
           }}
         >
           <FeatureCard

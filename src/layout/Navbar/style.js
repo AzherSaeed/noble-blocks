@@ -93,6 +93,10 @@ const NavBarContainer = styled.div`
   }
   .navbar-toggler {
     display: none;
+    
+    img{
+      width: 30px;
+    }
 
     @media screen and (max-width: 991px) {
       display: block;

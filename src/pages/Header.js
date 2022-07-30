@@ -6,7 +6,7 @@ import {headerVideo , playButton ,avatar1 , avatar2 , avatar3} from '../assets'
 const Header = () => {
     return (
         <HeaderContainer>
-            <Container  sx={{ maxWidth:'1330px'  }} maxWidth={false} disableGutters>
+            <Container   sx={{ maxWidth:'1330px' , p : '10px'  }} maxWidth={false} disableGutters>
                 <Grid container spacing={2}>
                     <Grid item xs={12} md={6}>
                         <div className='header-content' >
