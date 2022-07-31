@@ -1,11 +1,28 @@
 import styled from 'styled-components';
+import {heroBg , headerDots} from '../assets'
 
 
 
 export const HeaderContainer = styled.div`
+    margin-top: 50px;
+
+
+  //overflow: hidden;
+  :before{
+    content: '';
+    height: 300px;
+    width: 100%;
+    background-image: url(${heroBg});
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat ;
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50% , -18%);
+  }
   
-    margin-top: 100px;
-  
+
   
   .headerSectionVideo{
     max-width: 573px;
@@ -37,18 +54,46 @@ export const HeaderContainer = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
+   
+    
+
+    :after{
+      content: '';
+      height: 300px;
+      width: 325px;
+      background-image: url(${headerDots});
+      background-size: cover;
+      background-position: center;
+      position: absolute;
+      top: 0;
+      left: -8%;
+      transform: translate(-8% , -15%);
+      z-index: -1;
+    }
+
+
     &-heading{
     p{
       font-family: 'Inter';
       font-style: normal;
       font-weight: 700;
-      font-size: 46px;
-      line-height: 150%;
+      font-size: 60px;
+      line-height: 110%;
+      
+   
       
       @media screen and (max-width : 700px){
         font-size: 30px;
       }
-    }}
+    }
+      h6{
+        font-size: 19px;
+        font-weight: normal;
+        color: black;
+        margin: 10px 0;
+      }
+    }
     &-buttons{
       display: flex;
       align-items: center;

@@ -10,6 +10,8 @@ import {Button, Container} from "@mui/material";
 
 const Index = () => {
     const [navToggler, setnavToggler] = useState(false);
+
+
     return (
         <NavBarContainer>
             <Container sx={{ maxWidth:'1330px'  }} maxWidth={false} disableGutters>

@@ -20,11 +20,13 @@ import telegram from './telegram.svg';
 import twitter from './telegram.svg';
 import todar from './img/todar.jpg';
 import mark from './img/Mark.jpeg';
+import headerDots from './headerDots.png'
 
 
 //
 // homepage About Noble icons
 import openAcces from "./icons/openAccess.svg";
+import heroBg from './headerBg1.png'
 
 // home page images
 
@@ -37,6 +39,7 @@ import delroy from "./img/delroy.jpeg";
 import bentey from "./img/bentey.jpeg";
 export {
   timestamped,
+  heroBg,
   multidictionary,
   stramlined,
   indexed,
@@ -48,6 +51,7 @@ export {
   twitter,
   telegram,
   todar,
+  headerDots,
   mark,
   headerVideo,
   footerLogo,

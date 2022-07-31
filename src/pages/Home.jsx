@@ -20,16 +20,47 @@ const Home = () => {
   return (
     <Box mt={10} >
       <Container sx={{ maxWidth:'1100px'  }} maxWidth={false} disableGutters>
-        <Box mb={5} sx={{overflow : 'hidden'}} >
-          <Typography sx={{ fontSize: { xs: "25px", md: "32px" } , fontWeight : '500'   ,  textAlign : 'center' }}>
-            A web3-platform, backed by{" "}
-            <Box sx={{ fontWeight: "800" }} component="span">
-              cryptocurrency,{" "}
-            </Box>
-            that rewards researchers, removes publication barriers, and
-            streamlines operational costs.
-          </Typography>
-        </Box>
+        {/*<Box mb={5} sx={{overflow : 'hidden'}} >*/}
+        {/*  <Typography sx={{ fontSize: { xs: "25px", md: "32px" } , fontWeight : '500'   ,  textAlign : 'center' }}>*/}
+        {/*    A web3-platform, backed by{" "}*/}
+        {/*    <Box sx={{ fontWeight: "800" }} component="span">*/}
+        {/*      cryptocurrency,{" "}*/}
+        {/*    </Box>*/}
+        {/*    that rewards researchers, removes publication barriers, and*/}
+        {/*    streamlines operational costs.*/}
+        {/*  </Typography>*/}
+        {/*</Box>*/}
+          <Box sx={{ marginTop: "65px", marginBottom: "58px" }}>
+              <Box p={1} >
+                  <Typography
+                      sx={{
+                          paddingBottom: "17px",
+                          fontSize: { xs: "32px", md: "40px" },
+                      }}
+                  >
+                      Advance Knowledge Sharing to{" "}
+                      <Box sx={{ fontWeight: "700" }} component="span">
+                          Empower
+                      </Box>{" "}
+                      All People
+                  </Typography>
+                  <Typography
+                      sx={{
+                          fontSize: "18px",
+                          fontWeight: 500,
+                          lineHeight: "24px",
+                          color: "#000000",
+
+                      }}
+                  >
+                      Make your research understandable, affordable, and accessible for
+                      all. Enrich the scientific community and empower the greater
+                      public by publishing your noble work on the blockchain.
+                      NobleBlocks cultivates a true peer-review publication process in a
+                      cost-efficient decentralised platform.
+                  </Typography>
+              </Box>
+          </Box>
         <Box
           sx={{
             display: "flex",
@@ -40,8 +71,10 @@ const Home = () => {
               overflow : 'hidden',
             justifyContent: "space-between",
             alignItems: "center",
-              margin : '10px'
+              margin : '10px',
+              marginBottom : '70px'
           }}
+
         >
           <FeatureCard
             icon={rewardingIcon}
@@ -59,36 +92,36 @@ const Home = () => {
             para="Transparent and respectable publication costs and authors keep copyrights to their work"
           />
         </Box>
-        <Box sx={{ marginTop: "65px", marginBottom: "58px" }}>
-          <Box p={1} >
-            <Typography
-              sx={{
-                paddingBottom: "17px",
-                fontSize: { xs: "32px", md: "40px" },
-              }}
-            >
-              Advance Knowledge Sharing to{" "}
-              <Box sx={{ fontWeight: "700" }} component="span">
-                Empower
-              </Box>{" "}
-              All People
-            </Typography>
-            <Typography
-              sx={{
-                fontSize: "16px",
-                fontWeight: 500,
-                lineHeight: "24px",
-                color: "#000000",
-              }}
-            >
-              Make your research understandable, affordable, and accessible for
-              all. Enrich the scientific community and empower the greater
-              public by publishing your noble work on the blockchain.
-              NobleBlocks cultivates a true peer-review publication process in a
-              cost-efficient decentralised platform.
-            </Typography>
-          </Box>
-        </Box>
+        {/*<Box sx={{ marginTop: "65px", marginBottom: "58px" }}>*/}
+        {/*  <Box p={1} >*/}
+        {/*    <Typography*/}
+        {/*      sx={{*/}
+        {/*        paddingBottom: "17px",*/}
+        {/*        fontSize: { xs: "32px", md: "40px" },*/}
+        {/*      }}*/}
+        {/*    >*/}
+        {/*      Advance Knowledge Sharing to{" "}*/}
+        {/*      <Box sx={{ fontWeight: "700" }} component="span">*/}
+        {/*        Empower*/}
+        {/*      </Box>{" "}*/}
+        {/*      All People*/}
+        {/*    </Typography>*/}
+        {/*    <Typography*/}
+        {/*      sx={{*/}
+        {/*        fontSize: "16px",*/}
+        {/*        fontWeight: 500,*/}
+        {/*        lineHeight: "24px",*/}
+        {/*        color: "#000000",*/}
+        {/*      }}*/}
+        {/*    >*/}
+        {/*      Make your research understandable, affordable, and accessible for*/}
+        {/*      all. Enrich the scientific community and empower the greater*/}
+        {/*      public by publishing your noble work on the blockchain.*/}
+        {/*      NobleBlocks cultivates a true peer-review publication process in a*/}
+        {/*      cost-efficient decentralised platform.*/}
+        {/*    </Typography>*/}
+        {/*  </Box>*/}
+        {/*</Box>*/}
       </Container>
       <Box
         sx={{
@@ -105,9 +138,10 @@ const Home = () => {
               <Typography
                 variant="h1"
                 sx={{
-                  color: "lightblue",
-                  fontWeight: "500",
+                  color: "white",
+                  fontWeight: "700",
                   lineHeight: "58px",
+                    fontSize : '38px'
                 }}
               >
                 About NobleBlocks
@@ -120,6 +154,8 @@ const Home = () => {
                   maxWidth: "944px",
                   margin: "0 auto",
                   marginBottom: "23px",
+                    fontWeight : '400',
+                    fontSize : '18px'
                 }}
               >
                 NobleBlocks is a scientific journal on the blockchain that

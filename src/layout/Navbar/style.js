@@ -96,6 +96,7 @@ const NavBarContainer = styled.div`
     
     img{
       width: 30px;
+      cursor: pointer;
     }
 
     @media screen and (max-width: 991px) {

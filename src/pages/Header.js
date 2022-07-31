@@ -11,8 +11,9 @@ const Header = () => {
                     <Grid item xs={12} md={6}>
                         <div className='header-content' >
                             <div className='header-content-heading' >
-                                <p>Get rewarded when you edit,</p>
-                                <p><span className='subheadingHeader' >peer review</span> any paper.</p>
+                                <p>Next Generation</p>
+                                <p><span className='subheadingHeader' >Scientific Publication</span> </p>
+                                <h6>A web3-platform, backed by cryptocurrency, that rewards researchers, removes publication barriers, and streamlines operational costs.</h6>
                             </div>
                             <div className='header-content-buttons' >
                                 <button>Get Early Access</button>
