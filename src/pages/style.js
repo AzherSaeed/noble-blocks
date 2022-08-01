@@ -70,24 +70,24 @@ export const HeaderContainer = styled.div`
    
 
 
-    :after{
-      content: '';
-      height: 300px;
-      width: 325px;
-      background-image: url(${headerDots});
-      background-size: cover;
-      background-position: center;
-      position: absolute;
-      top: 0;
-      left: -8%;
-      transform: translate(-8% , -15%);
-      z-index: -1;
-    }
+    // :after{
+    //   content: '';
+    //   height: 300px;
+    //   width: 325px;
+    //   background-image: url(${headerDots});
+    //   background-size: cover;
+    //   background-position: center;
+    //   position: absolute;
+    //   top: 0;
+    //   left: -8%;
+    //   transform: translate(-8% , -15%);
+    //   z-index: -1;
+    // }
 
 
     &-heading{
     p{
-      font-family: 'Inter';
+      font-family: 'SF Pro Display';
       font-style: normal;
       font-weight: 700;
       font-size: 83px;
@@ -136,7 +136,7 @@ export const HeaderContainer = styled.div`
         color: white;
         border: none;
         padding: 13px 22px;
-        font-family: 'Inter';
+        font-family: 'SF Pro Display';
         font-style: normal;
         font-weight: 700;
         font-size: 22px;
