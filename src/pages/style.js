@@ -1,12 +1,17 @@
 import styled from 'styled-components';
-import {heroBg , headerDots} from '../assets'
+import {heroBg , headerDots , headerBg} from '../assets'
 
 
 
 export const HeaderContainer = styled.div`
     margin-top: 50px;
 
+  
 
+
+  @media screen and (max-width: 1110px){
+    padding: 15px;
+  }
   //overflow: hidden;
   // :before{
   //   content: '';
@@ -31,12 +36,19 @@ export const HeaderContainer = styled.div`
   }
   
   .subheadingHeader{
-    background: -webkit-linear-gradient(left, #D800E1 , #0082FF);
-    background: -o-linear-gradient(right, #D800E1, #0082FF);
-    background: -moz-linear-gradient(right, #D800E1, #0082FF);
-    background: linear-gradient(to right, #D800E1 , #0082FF);
+    background: linear-gradient(302.91deg, #0082FF 31.74%, #D800E1 74.99%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 150%;
+
+    @media screen and (max-width : 700px){
+      font-size: 50px;
+    }
   }
   
   
@@ -75,11 +87,11 @@ export const HeaderContainer = styled.div`
 
     &-heading{
     p{
-      font-family: 'Inter';
+      font-family: 'SF Pro Display';
       font-style: normal;
       font-weight: 700;
-      font-size: 60px;
-      line-height: 110%;
+      font-size: 89px;
+      line-height: 64px;
       
    
       
@@ -88,16 +100,28 @@ export const HeaderContainer = styled.div`
       }
     }
       h6{
-        font-size: 19px;
-        font-weight: normal;
-        color: black;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        color: #1E1E1E;
+        letter-spacing: -0.011em;
         margin: 10px 0;
+        
+        @media screen and (max-width : 480px){
+          font-size: 16px;
+        }
+       
       }
     }
     &-buttons{
       display: flex;
       align-items: center;
       gap: 16px;
+      @media screen and (max-width : 860px){
+        margin-bottom: 20px;
+      }
       
       @media screen and (max-width : 420px){
         flex-direction: column;
@@ -111,11 +135,15 @@ export const HeaderContainer = styled.div`
         border-radius: 72px;
         color: white;
         border: none;
-        padding: 13px;
-        font-family: 'Inter';
+        padding: 13px 22px;
+        font-family: 'SF Pro Display';
         font-style: normal;
         font-weight: 700;
-        font-size: 18px;
+        font-size: 22px;
+
+        @media screen and (max-width : 480px){
+          font-size: 18px;
+        }
 
 
         @media screen and (max-width : 700px){
@@ -130,6 +158,10 @@ export const HeaderContainer = styled.div`
         font-weight: 500;
         font-size: 18px;
         line-height: 64px;
+
+        @media screen and (max-width : 480px){
+          font-size: 14px;
+        }
       }
     }
     
@@ -158,9 +190,8 @@ export const HeaderContainer = styled.div`
         font-family: 'SF Pro Display';
         font-style: normal;
         font-weight: 500;
-        font-size: 16px;
-        line-height: 32px;
-        opacity: 0.5;
+        font-size: 18px;
+        line-height: 64px;
         color: #000000;
         transform: translateX(-60px);
 
@@ -176,15 +207,15 @@ export const HeaderContainer = styled.div`
 
 export const TeamContainer = styled.div`
   
-    margin-left: calc((100vw - 1440px)/2);
-    display: grid;
-      grid-template-columns: 120px 1fr;
-      gap: 100px;
-  @media screen and (max-width: 1440px){
-      margin-left: unset;
-    gap: 0px;
-    
-  }
+    //margin-left: calc((100vw - 1440px)/2);
+    //display: grid;
+    //  grid-template-columns: 120px 1fr;
+    //  gap: 100px;
+  //@media screen and (max-width: 1440px){
+  //    margin-left: unset;
+  //  gap: 0px;
+  //  
+  //}
     
   
   

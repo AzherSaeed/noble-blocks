@@ -10,8 +10,10 @@ const FeatureCard = ({ icon, heading, para }) => {
         margin: {
           xs: "20px",
         },
-        width: "337px",
-        height: "290px",
+        // width: "337px",
+        // height: "290px",
+          paddingX :'46px',
+          paddingY : '45px',
         background: "#FFFFFF",
         boxShadow: "0px 0px 25px rgba(0, 0, 0, 0.05)",
         borderRadius: 6,
@@ -36,11 +38,12 @@ const FeatureCard = ({ icon, heading, para }) => {
         </Box>
         <Typography
          fontSize={24}
-          sx={{ margin: "50px 0 8px 0", fontWeight: 700 }}
+          sx={{ margin: "50px 0 8px 0", fontWeight: 500   }}
+
         >
           {heading}
         </Typography>
-        <Typography variant="body2" sx={{ color: "#494949", fontSize: "16px" }}>
+        <Typography variant="body2" sx={{ color : '#494949' , fontSize: "16px" , lineHeight : '19px' }}>
           {para}
         </Typography>
       </Box>

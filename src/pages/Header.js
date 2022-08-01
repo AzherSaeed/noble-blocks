@@ -6,8 +6,8 @@ import {headerVideo , playButton ,avatar1 , avatar2 , avatar3} from '../assets'
 const Header = () => {
     return (
         <HeaderContainer>
-            <Container   sx={{ maxWidth:'1330px' , p : '10px'  }} maxWidth={false} disableGutters>
-                <Grid container spacing={2}>
+            <Container   sx={{ maxWidth:'1330px' }} maxWidth={false} disableGutters>
+                <Grid container spacing={0}>
                     <Grid item xs={12} md={6}>
                         <div className='header-content' >
                             <div className='header-content-heading' >
@@ -20,22 +20,22 @@ const Header = () => {
                                 <img src={playButton} alt='playbutton' />
                                 <p>How it works</p>
                             </div>
-                            <div className='header-content-avatar' >
-                                <div className='header-content-avatar-img' >
-                                    <div className='header-content-avatar-img-1' >
-                                        <img src={avatar1} alt='avatar1' />
-                                    </div>
-                                    <div className='header-content-avatar-img-2' >
-                                        <img src={avatar2} alt='avatar2' />
-                                    </div>
-                                    <div className='header-content-avatar-img-3' >
-                                        <img src={avatar3} alt='avatar3' />
-                                    </div>
-                                </div>
-                                <div className='header-content-avatar-para' >
-                                    <p>12,256 members are in waiting list</p>
-                                </div>
-                            </div>
+                            {/*<div className='header-content-avatar' >*/}
+                            {/*    <div className='header-content-avatar-img' >*/}
+                            {/*        <div className='header-content-avatar-img-1' >*/}
+                            {/*            <img src={avatar1} alt='avatar1' />*/}
+                            {/*        </div>*/}
+                            {/*        <div className='header-content-avatar-img-2' >*/}
+                            {/*            <img src={avatar2} alt='avatar2' />*/}
+                            {/*        </div>*/}
+                            {/*        <div className='header-content-avatar-img-3' >*/}
+                            {/*            <img src={avatar3} alt='avatar3' />*/}
+                            {/*        </div>*/}
+                            {/*    </div>*/}
+                            {/*    <div className='header-content-avatar-para' >*/}
+                            {/*        <p>12,256 members are in waiting list</p>*/}
+                            {/*    </div>*/}
+                            {/*</div>*/}
                         </div>
 
                     </Grid>

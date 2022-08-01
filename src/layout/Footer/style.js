@@ -4,6 +4,7 @@ import styled from 'styled-components';
 export const FooterContainer = styled.div`
   
     margin-top: 50px;
+  padding-bottom: 180px;
   
   .footer-content{
     border-top: 1px solid rgba(0, 0, 0, 0.1);

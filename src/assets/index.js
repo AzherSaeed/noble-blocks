@@ -17,10 +17,11 @@ import indexed from './icons/indexed.svg';
 import affortable from './icons/affordable.svg';
 import footerLogo from './footerLogo.svg';
 import telegram from './telegram.svg';
-import twitter from './telegram.svg';
+import twitter from './twitter.svg';
 import todar from './img/todar.jpg';
 import mark from './img/Mark.jpeg';
-import headerDots from './headerDots.png'
+import headerDots from './headerDots.png';
+import headerBg from './backgroundfortopsection.png'
 
 
 //
@@ -47,6 +48,7 @@ export {
   // home page icons
   efficentIcon,
   rewardingIcon,
+  headerBg,
   trustworthIcon,
   twitter,
   telegram,

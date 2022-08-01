@@ -35,10 +35,11 @@ const AboutGridItems = ({ icon, heading, para }) => {
         <Box sx={{ maxWidth: "356px" }}>
           <Typography
             sx={{
-              paddingBottom: "10px",
+              marginBottom: "18px",
               color: "#000000",
               fontSize: "20px",
               fontWeight: 700,
+                fontFamily :'Inter'
             }}
           >
             {heading}
@@ -49,8 +50,9 @@ const AboutGridItems = ({ icon, heading, para }) => {
               lineHeight: "24px",
               fontSize: "16px",
               fontWeight: 500,
-
+                fontFamily : 'Inter'
             }}
+            lineHeight='150%'
           >
             {para}
           </Typography>
