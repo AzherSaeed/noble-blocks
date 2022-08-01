@@ -96,7 +96,7 @@ export const HeaderContainer = styled.div`
    
       
       @media screen and (max-width : 700px){
-        font-size: 30px;
+        font-size: 50px;
       }
     }
       h6{
