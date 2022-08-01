@@ -25,6 +25,7 @@ const AboutGridItems = ({ icon, heading, para }) => {
             borderRadius: "100%",
             backgroundColor: " #DFEFFF",
             position: "relative",
+
           }}
         >
           <Box sx={{ position: "absolute", top: "-10px", left: "13px" }}>

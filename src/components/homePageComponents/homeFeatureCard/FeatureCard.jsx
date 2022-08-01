@@ -8,15 +8,13 @@ const FeatureCard = ({ icon, heading, para }) => {
     <Box
       sx={{
         margin: {
-          xs: "20px 0",
-          md: "",
+          xs: "20px",
         },
         width: "337px",
         height: "290px",
         background: "#FFFFFF",
-        boxShadow: " 0px 0px 25px rgba(0, 0, 0, 0.05",
-        borderRadius: "40px",
-
+        boxShadow: "0px 0px 25px rgba(0, 0, 0, 0.05)",
+        borderRadius: 6,
       }}
     >
       <Box
@@ -30,14 +28,14 @@ const FeatureCard = ({ icon, heading, para }) => {
           justifyContent: "center",
             textAlign : 'center'
         }}
-        p={2}
+        p={0}
 
       >
         <Box>
           <img src={icon} alt="" />
         </Box>
         <Typography
-          variant="h4"
+         fontSize={24}
           sx={{ margin: "50px 0 8px 0", fontWeight: 700 }}
         >
           {heading}

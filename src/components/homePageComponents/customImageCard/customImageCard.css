@@ -36,6 +36,11 @@
   display: none;
   z-index: 2;
   padding: 10px 15px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
 }
 
 .grid-img-cnt:nth-child(6) .grid-img-content,
@@ -137,7 +142,12 @@
 }
 @media screen and (max-width : 450px) {
   .grid-img-content{
-    width: 62vw;
+    width: 56vw;
+  }
+}
+@media screen and (max-width : 450px) {
+  .grid-img-content{
+    width: 46vw;
   }
 }
 .grid-card-cnt:hover .grid-img-cnt:before{

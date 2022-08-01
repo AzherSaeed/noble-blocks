@@ -10,9 +10,9 @@ const CustomImageCard = ({ img, name, position, description , addClass = ''}) =>
         <img className="grid-img" src={img} />
       </div>
       <div className={`grid-img-content ${addClass}`}>
-        <Typography>{name}</Typography>
-        <Typography>{position}</Typography>
-        <Typography>{description}</Typography>
+        <Typography fontSize={20} fontFamily='Inter' fontWeight={600} >{name}</Typography>
+        <Typography fontSize={16} fontFamily='Inter' >{position}</Typography>
+        <Typography fontSize={17} fontFamily='Inter' >{description}</Typography>
       </div>
     </div>
   );

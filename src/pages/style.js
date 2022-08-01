@@ -8,20 +8,20 @@ export const HeaderContainer = styled.div`
 
 
   //overflow: hidden;
-  :before{
-    content: '';
-    height: 300px;
-    width: 100%;
-    background-image: url(${heroBg});
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat ;
-    position: absolute;
-    top: 18%;
-    left: 50%;
-    transform: translate(-50% , -18%);
-  }
-  
+  // :before{
+  //   content: '';
+  //   height: 300px;
+  //   width: 100%;
+  //   background-image: url(${heroBg});
+  //   background-size: contain;
+  //   background-position: center;
+  //   background-repeat: no-repeat ;
+  //   position: absolute;
+  //   top: 18%;
+  //   left: 50%;
+  //   transform: translate(-50% , -18%);
+  // }
+  //
 
   
   .headerSectionVideo{
@@ -56,7 +56,7 @@ export const HeaderContainer = styled.div`
     justify-content: center;
     position: relative;
    
-    
+
 
     :after{
       content: '';
