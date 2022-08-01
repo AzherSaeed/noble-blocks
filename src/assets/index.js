@@ -21,7 +21,9 @@ import twitter from './twitter.svg';
 import todar from './img/todar.jpg';
 import mark from './img/Mark.jpeg';
 import headerDots from './headerDots.png';
-import headerBg from './backgroundfortopsection.png'
+import headerBg from './backgroundfortopsection.png';
+import baaa from './baaa.svg';
+import instagram from './instagram.svg';
 
 
 //
@@ -39,6 +41,8 @@ import michaelGray from "./img/michaelGray.png";
 import delroy from "./img/delroy.jpeg";
 import bentey from "./img/bentey.jpeg";
 export {
+  baaa,
+    instagram,
   timestamped,
   heroBg,
   multidictionary,

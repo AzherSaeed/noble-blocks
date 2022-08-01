@@ -1,5 +1,5 @@
 import React from 'react';
-import {telegram , footerLogo , twitter} from '../../assets';
+import {telegram , footerLogo , twitter , baaa , instagram} from '../../assets';
 
 import {FooterContainer} from "./style";
 import {Container} from "@mui/material";
@@ -15,6 +15,8 @@ const Footer = () => {
                     </div>
                     <div className='footer-content-icon' >
                         <img src={telegram}/>
+                        <img src={instagram}/>
+                        <img src={baaa}/>
                         <img src={twitter} />
                     </div>
                 </div>

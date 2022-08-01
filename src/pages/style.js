@@ -87,10 +87,10 @@ export const HeaderContainer = styled.div`
 
     &-heading{
     p{
-      font-family: 'SF Pro Display';
+      font-family: 'Inter';
       font-style: normal;
       font-weight: 700;
-      font-size: 89px;
+      font-size: 83px;
       line-height: 64px;
       
    
@@ -136,7 +136,7 @@ export const HeaderContainer = styled.div`
         color: white;
         border: none;
         padding: 13px 22px;
-        font-family: 'SF Pro Display';
+        font-family: 'Inter';
         font-style: normal;
         font-weight: 700;
         font-size: 22px;
