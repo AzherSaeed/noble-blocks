@@ -90,7 +90,7 @@ export const HeaderContainer = styled.div`
       font-family: 'SF Pro Display';
       font-style: normal;
       font-weight: 700;
-      font-size: 83px;
+      font-size: 89px;
       line-height: 64px;
       
    
