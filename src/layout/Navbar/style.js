@@ -19,6 +19,8 @@ const NavBarContainer = styled.div`
     
     &-logo{
       margin-right: 20px;
+      max-width: 353px;
+      height: auto;
       img{
         width: 100%;
         height: 100%;

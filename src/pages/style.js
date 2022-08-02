@@ -30,7 +30,7 @@ export const HeaderContainer = styled.div`
 
   
   .headerSectionVideo{
-    max-width: 573px;
+    //max-width: 573px;/
     width: 100%;
     margin: 0 auto;
   }
@@ -43,7 +43,7 @@ export const HeaderContainer = styled.div`
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 64px;
+    font-size: 63px;
     line-height: 150%;
 
     @media screen and (max-width : 700px){
@@ -90,8 +90,8 @@ export const HeaderContainer = styled.div`
       font-family: 'SF Pro Display';
       font-style: normal;
       font-weight: 700;
-      font-size: 89px;
-      line-height: 64px;
+      font-size: 88px;
+      line-height: 69px;
       
    
       

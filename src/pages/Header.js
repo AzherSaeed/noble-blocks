@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <HeaderContainer>
             <Container   sx={{ maxWidth:'1330px' }} maxWidth={false} disableGutters>
-                <Grid container spacing={0}>
+                <Grid container spacing={2}>
                     <Grid item xs={12} md={6}>
                         <div className='header-content' >
                             <div className='header-content-heading' >
